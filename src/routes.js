@@ -5,5 +5,7 @@ export const routes = {
   react: "/react",
   java: "/java",
   c: "/c",
-  python: "python",
+  python: "/python",
+  frontSub: "/front/sub",
+  javaSub: "/java/sub",
 };
