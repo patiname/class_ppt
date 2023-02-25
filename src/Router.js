@@ -9,6 +9,8 @@ import { routes } from "./routes";
 import { FrontSub } from "./pages/front/FrontSub";
 import { Java } from "./pages/java/Java";
 import { JavaSub } from "./pages/java/JavaSub";
+import { CLanSub } from "./pages/C/\bCLanSub";
+import { PythonSub } from "./pages/python/PythonSub";
 
 function Router() {
   return (
@@ -26,7 +28,10 @@ function Router() {
         <Route path={`${routes.javaSub}`} element={<JavaSub />} />
 
         <Route path={routes.c} element={<CLanguage />} />
+        <Route path={routes.cSub} element={<CLanSub />} />
+
         <Route path={routes.python} element={<Python />} />
+        <Route path={routes.pythonSub} element={<PythonSub />} />
 
         <Route path="/*" element={<Home />} />
       </Routes>

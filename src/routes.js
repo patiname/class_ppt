@@ -1,11 +1,18 @@
 export const routes = {
   home: "/",
+
   front: "/front",
+  frontSub: "/front/sub",
+
   js: "/js",
   react: "/react",
+
   java: "/java",
-  c: "/c",
-  python: "/python",
-  frontSub: "/front/sub",
   javaSub: "/java/sub",
+
+  c: "/c",
+  cSub: "/c/sub",
+
+  python: "/python",
+  pythonSub: "/python/sub",
 };

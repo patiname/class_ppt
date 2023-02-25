@@ -220,3 +220,229 @@ export const javaCon = [
     ],
   },
 ];
+/* Java end */
+
+export const CLanCon = [
+  {
+    mainTitle: [
+      {
+        mainTitle01: "C 언어",
+        mainTitle02: "Class.",
+      },
+    ],
+    mainLists: [
+      "01. 수업소개",
+      "02. 프로그래밍",
+      "03. C언어 란?",
+      "04. 설치 프로그램",
+      // "05. 자바 코드",
+    ],
+  },
+  {
+    id: "01",
+    subTitle: "수업 소개",
+    items: [
+      {
+        title: "수업시간 엄수",
+        desc: "프로그래밍 수업 특성상 수업 시간에 늦게 되면 진도 따라가기 힘듬",
+      },
+      {
+        title: "비대면 수업",
+        desc: "비대면 수업은 줌을 사용하며, 수업 시작전 문자로 접속 주소 전달하며, 영상 기록(녹화) 불가",
+      },
+      {
+        title: "결석",
+        desc: "결석을 하게 될땐 반드시 미리 메일을 남길것. (ex)평일 oo수업 이름)",
+      },
+      {
+        title: "수업 자료",
+        desc: "수업 내용은 따로 제공하지 않으며, 수업시 중요한 내용을 정리하면서 진행함",
+      },
+      {
+        title: "질문",
+        desc: "수업 이후 질문 사항은 메일로 남기기",
+      },
+    ],
+  },
+  {
+    id: "02",
+    subTitle: "프로그래밍",
+    items: [
+      {
+        title: "프로그램을 만드는 일",
+        desc: "",
+      },
+      {
+        title: "코드입력 -> 번역 -> 실행",
+        desc: "",
+      },
+      {
+        title:
+          "번역은 컴파일(COMPLIE)이라고 하며, 이를 작업하는 프로그램을 컴파일러 라고함",
+        desc: "",
+      },
+      {
+        title: "고급 언어: 사람이 이해하기 쉬운 언어",
+        desc: "",
+      },
+      {
+        title: "저급 언어: 컴퓨터가 이해하기 쉬운 언어",
+        desc: "",
+      },
+      {
+        title: "기계어: 0과 1로 만 표현됨",
+        desc: "",
+      },
+    ],
+  },
+  {
+    id: "03",
+    subTitle: "C 언어",
+    items: [
+      {
+        title: "절차 지향",
+        desc: `객체 지향 언어를 사용하기 때문에 유지보수가 쉬움`,
+      },
+      {
+        title: "가장 오래된 언어",
+        desc: `시스템 프로그래밍, 임베디드 시스템 및 고성능 응용 프로그램 등의 분야에서 널리 사용됨`,
+      },
+      {
+        title: "높은 성능",
+        desc: `C 언어는 기계어와 가깝기 때문에 매우 높은 성능을 제공하며, 
+              다른 고급 언어에 비해 더 빠른 실행 속도를 제공함`,
+      },
+      {
+        title: "대표 개발",
+        desc: `시스템 프로그래밍, 임베디드 시스템, 네트워크 프로그래밍, 
+        그래픽 및 게임 개발 등 다양한 분야에서 사용`,
+      },
+    ],
+  },
+  {
+    id: "04",
+    subTitle: "설치 프로그램",
+    items: [
+      {
+        title: "Visual Studio Or Visual Studio Code",
+        desc: `https://code.visualstudio.com/ ,
+         https://visualstudio.microsoft.com/ko/downloads/`,
+      },
+    ],
+  },
+];
+/* C language end */
+
+export const PythonCon = [
+  {
+    mainTitle: [
+      {
+        mainTitle01: "Python",
+        mainTitle02: "Class.",
+      },
+    ],
+    mainLists: [
+      "01. 수업소개",
+      "02. 프로그래밍",
+      "03. 파이썬이 란?",
+      "04. 설치 프로그램",
+      // "05. 자바 코드",
+    ],
+  },
+  {
+    id: "01",
+    subTitle: "수업 소개",
+    items: [
+      {
+        title: "수업시간 엄수",
+        desc: "프로그래밍 수업 특성상 수업 시간에 늦게 되면 진도 따라가기 힘듬",
+      },
+      {
+        title: "비대면 수업",
+        desc: "비대면 수업은 줌을 사용하며, 수업 시작전 문자로 접속 주소 전달하며, 영상 기록(녹화) 불가",
+      },
+      {
+        title: "결석",
+        desc: "결석을 하게 될땐 반드시 미리 메일을 남길것. (ex)평일 oo수업 이름)",
+      },
+      {
+        title: "수업 자료",
+        desc: "수업 내용은 따로 제공하지 않으며, 수업시 중요한 내용을 정리하면서 진행함",
+      },
+      {
+        title: "질문",
+        desc: "수업 이후 질문 사항은 메일로 남기기",
+      },
+    ],
+  },
+  {
+    id: "02",
+    subTitle: "프로그래밍",
+    items: [
+      {
+        title: "프로그램을 만드는 일",
+        desc: "",
+      },
+      {
+        title: "코드입력 -> 번역 -> 실행",
+        desc: "",
+      },
+      {
+        title:
+          "번역은 컴파일(COMPLIE)이라고 하며, 이를 작업하는 프로그램을 컴파일러 라고함",
+        desc: "",
+      },
+      {
+        title: "고급 언어: 사람이 이해하기 쉬운 언어",
+        desc: "",
+      },
+      {
+        title: "저급 언어: 컴퓨터가 이해하기 쉬운 언어",
+        desc: "",
+      },
+      {
+        title: "기계어: 0과 1로 만 표현됨",
+        desc: "",
+      },
+    ],
+  },
+  {
+    id: "03",
+    subTitle: "파이썬(Python)",
+    items: [
+      {
+        title: "쉽고 간결한 문법",
+        desc: `다른 프로그래밍 언어에 비해 문법이 간결하여, 
+        쉽게 배울 수 있고 코드를 읽고 쓰는 데 드는 시간을 줄일 수 있음`,
+      },
+      {
+        title: "객체 지향 프로그래밍",
+        desc: `객체 지향 프로그래밍(Object-Oriented Programming, OOP)언어로,
+         이는 코드를 재사용하고 유지보수하기 쉬움`,
+      },
+      {
+        title: "큰 생태계 및 오픈 소스",
+        desc: `다양한 라이브러리와 프레임워크를 포함한 큰 생태계를 가지고 있으며, 
+        라이선스 비용 없이 프로젝트를 개발할 수 있음`,
+      },
+      {
+        title: "대표 개발",
+        desc: `데이터 분석, 인공지능, 웹 개발 등 다양한 분야에서 사용`,
+      },
+    ],
+  },
+  {
+    id: "04",
+    subTitle: "설치 프로그램",
+    items: [
+      {
+        title: "Visual Studio Code",
+        desc: `https://code.visualstudio.com/`,
+      },
+      {
+        title: "Python",
+        desc: `https://www.python.org/downloads/`,
+      },
+    ],
+  },
+];
