@@ -5,6 +5,8 @@ export const routes = {
   frontSub: "/front/sub",
 
   js: "/js",
+  jsSub: "/js/sub",
+
   react: "/react",
 
   java: "/java",

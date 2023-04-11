@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Front } from "./pages/front/Front";
 import { Home } from "./pages/Home";
 import { Js } from "./pages/js/Js";
+import { JsSub } from "./pages/js/JsSub";
 import { React } from "./pages/react/React";
 import { CLanguage } from "./pages/C/CLanguage";
 import { Python } from "./pages/python/Python";
@@ -22,6 +23,8 @@ function Router() {
         <Route path={`${routes.frontSub}`} element={<FrontSub />} />
 
         <Route path={routes.js} element={<Js />} />
+        <Route path={routes.jsSub} element={<JsSub />} />
+
         <Route path={routes.react} element={<React />} />
 
         <Route path={routes.java} element={<Java />} />
