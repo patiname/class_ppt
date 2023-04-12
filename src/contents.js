@@ -1,3 +1,97 @@
+export const PubCon = [
+  {
+    mainTitle: [
+      {
+        mainTitle01: "HTML",
+        mainTitle02: "CSS",
+        mainTitle03: "Class.",
+      },
+    ],
+    mainLists: ["00. INTRO", "01. JAVASCRIPT", "02. FRONT END", "03. REACT"],
+  },
+  {
+    id: "01",
+    subTitle: "수업 소개",
+    items: [
+      {
+        title: "수업시간 엄수",
+        desc: "프로그래밍 수업 특성상 수업 시간에 늦게 되면 진도 따라가기 힘듬",
+      },
+      {
+        title: "비대면 수업",
+        desc: "비대면 수업은 줌을 사용하며, 수업 시작전 문자로 접속 주소 전달하며, 영상 기록(녹화) 불가",
+      },
+      {
+        title: "결석",
+        desc: "결석을 하게 될땐 반드시 미리 메일을 남길것. (ex)평일 oo수업 이름) / pncoding@naver.com",
+      },
+      {
+        title: "수업 자료",
+        desc: "수업 내용은 따로 제공하지 않으며, 수업시 중요한 내용을 정리하면서 진행함",
+      },
+      {
+        title: "질문",
+        desc: "수업 이후 질문 사항은 메일로 남기기",
+      },
+    ],
+  },
+  {
+    id: "02",
+    subTitle: "HTML",
+    items: [
+      {
+        title: "HTML 란?",
+        desc: "준비중",
+      },
+      {
+        title: "준비중",
+        desc: "준비중",
+      },
+      {
+        title: "결론",
+        desc: "준비중",
+      },
+    ],
+  },
+  {
+    id: "03",
+    subTitle: "CSS",
+    items: [
+      {
+        title: "CSS",
+        desc: "준비중",
+      },
+      {
+        title: "준비중",
+        desc: `준비중`,
+      },
+      {
+        title: "준비중",
+        desc: `준비중`,
+      },
+    ],
+  },
+  {
+    id: "04",
+    subTitle: "HTML, CSS",
+    items: [
+      {
+        title: "준비중",
+        desc: `준비중`,
+      },
+      {
+        title: "준비중",
+        desc: `준비중`,
+      },
+      {
+        title: "준비중",
+        desc: `준비중`,
+      },
+    ],
+  },
+];
+/* publish end */
+
 export const frontCon = [
   {
     mainTitle: [
@@ -446,6 +540,7 @@ export const PythonCon = [
     ],
   },
 ];
+/* Python end */
 
 export const JsCon = [
   {
@@ -548,3 +643,4 @@ export const JsCon = [
     ],
   },
 ];
+/* JS end */

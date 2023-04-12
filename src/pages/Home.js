@@ -6,6 +6,9 @@ export const Home = () => {
   return (
     <VStack fontSize={"30px"} h="100vh" p="100px" spacing={10}>
       <Box>
+        <Link to={routes.publish}>Publish</Link>
+      </Box>
+      <Box>
         <Link to={routes.front}>Front end</Link>
       </Box>
       <Box>

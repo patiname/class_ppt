@@ -1,6 +1,9 @@
 export const routes = {
   home: "/",
 
+  publish: "/publish",
+  publishSub: "/publish/sub",
+
   front: "/front",
   frontSub: "/front/sub",
 

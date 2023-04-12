@@ -12,12 +12,17 @@ import { Java } from "./pages/java/Java";
 import { JavaSub } from "./pages/java/JavaSub";
 import { CLanSub } from "./pages/C/\bCLanSub";
 import { PythonSub } from "./pages/python/PythonSub";
+import { Publish } from "./pages/publish/Publish";
+import { PublishSub } from "./pages/publish/PublishSub";
 
 function Router() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path={routes.home} element={<Home />} />
+
+        <Route path={routes.publish} element={<Publish />} />
+        <Route path={`${routes.publishSub}`} element={<PublishSub />} />
 
         <Route path={routes.front} element={<Front />} />
         <Route path={`${routes.frontSub}`} element={<FrontSub />} />
