@@ -13,13 +13,13 @@ export const Sub = ({ sub }) => {
     >
       <Box>
         <Text fontSize="80px">{sub.id}</Text>
-        <Heading fontWeight={500} fontSize="110px" color={"rgb(59, 17, 145)"}>
+        <Heading fontWeight={600} fontSize="110px" color={"rgb(59, 17, 145)"}>
           {sub.subTitle}
         </Heading>
       </Box>
 
       <Box w="50%" pt="30px">
-        <Box fontSize={"36px"} fontWeight="500" mb="40px">
+        <Box fontSize={"36px"} fontWeight="600" mb="40px">
           {sub.items.map((con, index) => (
             <Box mb="30px" key={index}>
               <Text as={"li"}>{con.title}</Text>
