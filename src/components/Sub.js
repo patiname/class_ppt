@@ -5,7 +5,7 @@ import { routes } from "../routes";
 export const Sub = ({ sub }) => {
   return (
     <Box
-      h="100vh"
+      h="150vh"
       p="80px"
       display={"flex"}
       justifyContent={"space-between"}
